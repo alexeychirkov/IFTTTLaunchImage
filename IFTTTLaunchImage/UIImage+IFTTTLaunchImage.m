@@ -43,7 +43,7 @@ NSString * const kIFTTTDefaultLaunchImageSetName = @"LaunchImage";
             [imageName appendString:@"-800-Portrait-736h"];
         }
     } else if (height == 812.f) {
-        [imageName appendString:@"-1100-2436h"];
+        [imageName appendString:@"-1100-Portrait-2436h"];
     } else {
         [imageName appendString:@"-700"];
     }
